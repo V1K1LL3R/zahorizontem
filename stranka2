@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Full Screen Picture</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: #000;
+        overflow: hidden;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      img {
+        width: 100vw;
+        height: 100vh;
+        object-fit: contain; /* Use cover if you want the image to fill completely and crop */
+        display: block;
+        background: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://live.staticflickr.com/…pg" alt="Zahorizontem">
+  </body>
+</html>
